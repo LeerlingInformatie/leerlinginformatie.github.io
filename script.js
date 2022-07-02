@@ -1,6 +1,3 @@
-// Volgorde: [leerlingnummer, volledige naam, foto,[klas, klas, etc], [docent, docent, etc]]
-// updated: [leerlingnummer, naam, foto_id, [afdeling_id, klas_id, klas_id, etc], [docent_id, docent_id, etc]]
-
 function classShow(id, j) {
   let str = "";
   let l = data[j][3][0];
@@ -143,7 +140,7 @@ function printResults(results) {
 }
 
 main()
-// Het is handig om de klassen en docenten in een aparte lijsten te doen, en in de student t id geven.
+
 var docenten = ["goe","mth","tew","mer","qui","brn","bel","dis","tew","hfz","vgt","veh","wyk","dre","dee","jng","bca","gbg","hil","kkp","zwb","hvo","pth"]
 var afdeling = ["5v","6v"]
 var klassen = [[],["6v.6v2","6v.be2","6v.econ2","6v.entl3","6v.fatl1","6v.ges1","6v.kua1","6v.kumu1","6v.mr2","6v.wisa2","6v.biol2","6v.dutl1","6v.entl1","6v.kubv1","6v.mr1","6v.nat1","6v.schk1","6v.wisa1","6v.6v1","6v.ak2","6v.dutl2","6v.ges3","6v.mr5vto","6v.se1"]]
