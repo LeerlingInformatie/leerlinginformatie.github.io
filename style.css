@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.result {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding: 5px;
+  margin: 5px auto;
+  background-color: #eee;
+  border-radius: 10px;
+}
+img {
+  float: left;
+  max-height: 90px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+p {
+  margin: 10px;
+}
+a {
+  color: black;
+}
+select, input {
+  margin: 0 10px;
+  min-width: 100px;
+}
